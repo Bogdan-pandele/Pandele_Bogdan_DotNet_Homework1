@@ -1,7 +1,4 @@
-﻿
-using Ex3_Homework1;
-
-void add(string studentName, List<string> studentnames )
+﻿void add(string studentName, List<string> studentnames )
 {
     studentnames.Add(studentName);
 }
@@ -15,9 +12,5 @@ add("Vasile", studentNames);
 
 Console.WriteLine(String.Join("," , studentNames));
 
-namespace Ex3_Homework1
-{
-    
-}
 
     
